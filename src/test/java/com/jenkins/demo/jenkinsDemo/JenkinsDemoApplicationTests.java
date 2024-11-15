@@ -7,7 +7,6 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @RunWith(SpringRunner.class)
@@ -18,7 +17,7 @@ class JenkinsDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
-		logger.info("Test case executing...");
+		logger.info(()->"Test case executing...");
         assertTrue(true);
 	}
 
