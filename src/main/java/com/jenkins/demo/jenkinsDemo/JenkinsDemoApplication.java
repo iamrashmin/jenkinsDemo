@@ -19,6 +19,8 @@ public class JenkinsDemoApplication {
 
 	public static void main(String[] args) {
 		logger.info("Application executed...");
+		logger.info("Application executed for email check...");
+
 		SpringApplication.run(JenkinsDemoApplication.class, args);
 	}
 
